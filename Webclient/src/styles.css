@@ -1,0 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo {
+
+    font-family: 'Kaushan Script', cursive;   
+}
+
+nav {
+    position: fixed; 
+    z-index: 1000;   
+}
+

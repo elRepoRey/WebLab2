@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/sd-flowerplace/providers/Microsoft.ServiceLinker/linkers/cad23sdmainstorageaccount_B550DC42B3, /subscriptions/b81c4582-b581-43c5-8f86-3b4cce46369c/resourceGroups/SD-Main-RG/providers/Microsoft.Web/sites/sd-flowerplace/providers/Microsoft.ServiceLinker/linkers/cad23sdmainstorageaccount_2555E01298",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/sdmainstorageaccount",
+      "type": "storage.azure",
+      "connectionId": "cad23sdmainstorageaccount",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/sd-flowerplace/providers/Microsoft.ServiceLinker/linkers/DefaultConnection_D597D7DCAF",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sd-sql-server/databases/sd-theflowerplaceDb",
+      "type": "mssql.azure",
+      "connectionId": "DefaultConnection",
+      "dynamicId": null
+    }
+  }
+}
